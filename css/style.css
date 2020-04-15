@@ -2,15 +2,44 @@
 /* Import fonts from fonts.css */
 @import url(./fonts.css);
 
+/* import CSS variables */
+@import url(./partials/_variables.css);
+
 
 /* Start Navigation */
-
+/* navigation bar padding */ 
 .header-area .main-menu .navbar .navbar-brand {
     padding: 0 2rem 0 5rem;
 }
 
 .header-area .main-menu .navbar {
     padding: 1rem 20rem;
+}
+
+/* Fonts */
+.header-area .main-menu .nav-item .nav-link  {
+    font: normal 500 15px/2px var(--roboto);
+    text-transform: uppercase;
+    padding: 1.7rem;
+    color: var(--title-color);
+}
+
+/* Active link */
+.header-area .main-menu .navbar-nav .active a {
+    background: var(--gradient-color);
+    /* specify gradient color to the text */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* Hover on navlinks */
+.header-area .main-menu .navbar a:hover {
+    background: var(--gradient-color);
+    /*specify gradient color to the text */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 /* End Navigation */
