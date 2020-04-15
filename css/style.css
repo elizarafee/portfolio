@@ -1,3 +1,14 @@
 
 /* Import fonts from fonts.css */
 @import url(./fonts.css);
+
+
+/* Start Navigation */
+
+.header-area .main-menu .navbar .navbar-brand {
+    padding: 0 2rem 0 5rem;
+}
+
+.header-area .main-menu .navbar {
+    padding: 1rem 20rem;
+}
