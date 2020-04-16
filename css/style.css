@@ -5,6 +5,9 @@
 /* import CSS variables */
 @import url(./partials/_variables.css);
 
+/*import global classes */
+@import url(../css/partials/_global.css);
+
 
 /* Start Navigation */
 /* navigation bar padding */ 
@@ -43,3 +46,59 @@
 }
 
 /* End Navigation */
+
+/* Banner Area */
+
+.site-main .site-banner {
+    background: url(../img/banner/home-banner.png) no-repeat /*horizontal*/ 0% /*vertical*/ 35% ;
+}
+
+.site-main .site-banner .site-title h3{
+    padding-top: 45%;
+    font-weight: 500;
+}
+
+.site-main .site-banner .site-title h3::before {
+    content: "";
+    display: inline-block;
+    background: black;
+    height: 2px;
+    width: 10vw;
+    margin-right: 5%;
+    transform: translateY(-10px);
+}
+
+
+.site-main .site-banner .site-title h3::after {
+    content: "";
+    display: inline-block;
+    background: black;
+    height: 2px;
+    width: 10vw;
+    margin-left: 5%;
+    transform: translateY(-10px);
+}
+
+.site-main .site-banner .site-title h1 {
+    padding-top: 1%;
+    font-size: 2.8rem;
+}
+
+.site-main .site-banner .site-title h4 {
+    margin-top: 0%;
+    font-size: 1.5rem;
+}
+
+ .site-main .site-banner .banner-image > img {
+    margin-top: 30%;
+    padding: 0 0;
+    margin-left: 0px;
+    height: 20rem;
+    width: 20rem;
+}
+
+
+
+
+
+/* End Banner Area */
