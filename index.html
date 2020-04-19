@@ -321,11 +321,11 @@
             <h1 class="text-uppercase title-h1">Quality Work</h1>
           </div>
           <div class="button-group">
-            <button type="button" class="active">All</button>
-            <button type="button"">Popular</button>
-            <button type="button">Latest</button>
-            <button type="button">Following</button>
-            <button type="button">Upcoming</button>
+            <button type="button" class="active" data-filter="*">All</button>
+            <button type="button" data-filter=".popular">Popular</button>
+            <button type="button" data-filter=".latest">Latest</button>
+            <button type="button" data-filter=".following">Following</button>
+            <button type="button" data-filter=".upcoming">Upcoming</button>
           </div>
           <div class="row grid">
             <div class="col-lg-4 col-md-6 col-sm-12 element-item latest">
@@ -443,6 +443,10 @@
     <!--Bootstrap JS file-->
     <script src="./js/bootstrap.min.js"></script>
 
+    <!-- Isotope JS file -->
+    <script src="./vendor/isotope/isotope.min.js"></script>
 
+    <!-- Customed JS file -->
+    <script src="./js/main.js"></script>
   </body>
 </html>
