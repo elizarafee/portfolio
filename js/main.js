@@ -20,4 +20,11 @@ $(document).ready(function(){
     })
 
     $('.project-area .button-group #btn1').trigger('click');
+
+    // Calling Magnific popup method
+    $('.project-area .grid .test-popup-link').magnificPopup({
+        type: 'image'
+        // other options
+      });
+
 });
