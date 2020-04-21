@@ -118,11 +118,12 @@
 }
 
 .about-area .about-image {
-    padding: 0%;
+    /* padding: 0%;
     margin-top: 10%;
     margin-left: 10%;
     height: 50rem;
-    width: 50rem;
+    width: 50rem; */
+
 }
 
 .about-area .paragraph>p {
@@ -132,7 +133,7 @@
 
 /* Start Brands Area */
 .brand-area {
-    padding: 5rem 20rem;
+    padding: 5rem 10rem;
     padding-bottom: 8rem;
 }
 
@@ -181,8 +182,9 @@
     background: #e029290a;
     width: 400px;
     height: 400px;
-    margin-top: 16%;
-    margin-left: 0px;
+    margin-top: 0;
+    padding-right: 3px;
+    margin-left: 0;
     z-index: -1;
 }
 
